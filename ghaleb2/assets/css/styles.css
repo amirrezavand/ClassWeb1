@@ -1,11 +1,15 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body{
     font-family:BYekan,'BYekan',tahoma;
     direction: rtl;
+}
+.clear{
+    clear:both;
 }
 
 #header{
@@ -52,20 +56,107 @@ body{
 }
 
 .siteDescripton h1{
-    margin-bottom: 30px;
+    padding-bottom: 5px;
     font-size: 36px;
+    border-bottom:1px solid #00e0d0;
+    display:inline;
 }
 .siteDescripton h2{
+    margin-top: 30px;
     font-size: 20px;
+    line-height: 2;
 }
 
+.siteDescripton a{
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid #00e0d0;
+    border-radius: 3px;
+    color:#00e0d0;
+    padding: 5px 10px;
+    margin-top:20px;
+}
 
+.siteDescripton a:hover{
+    border:1px solid white;
+    background-color: #00e0d0;
+    color:white;
+}   
+#slideNav{
+    margin-top:80px;
+}
+#slideNav span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin:5px;
+    background-color: rgba(255, 255, 255, .5);
+    border:1px solid white;
+    box-sizing: border-box;
+}
+#slideNav .active{
+    background-color:#00e0d0;
+}
 
+#slideNav div{    
+    width: 100px;
+    margin:0 auto;
+}
 
+/* ourStory */
+#ourStory{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0;
+}
+#ourStory .right{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#ourStory .left{
+    width: 50%;
+    float: left;
+    padding: 20px;
 
+}
 
+#ourStory .right h2{
+    columns: #413d4b;
+}
+#ourStory .right p{
+    columns: #716e78;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 14px;
+}
 
+#ourStory .left img{
+    margin:0 auto;
+    display: block;
+}
 
+#ourStory .right a{
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid #00e0d0;
+    border-radius: 3px;
+    color:#00e0d0;
+    padding: 5px 10px;
+    margin-top:20px;
+    float:left;
+}
 
+#ourStory .right a:hover{
+    border:1px solid white;
+    background-color: #00e0d0;
+    color:white;
+} 
 
-
+/* customer comments */
+#customerComments{
+    background-image: url("../images/bg2.png");
+    width:100%;
+    height: 500px;
+}
