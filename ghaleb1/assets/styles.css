@@ -1,0 +1,267 @@
+/* Fonts  */
+@font-face{
+	font-family: BYekan;
+	src:url(fonts/BYekan-webfont.eot) format('eot'),
+	url(fonts/BYekan-webfont.woff) format('woff'),
+	url(fonts/BYekan-webfont.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: FontAwesome;
+	src:url(fonts/fontawesome-webfont.eot) format('eot'),
+	url(fonts/fontawesome-webfont.woff) format('woff'),
+	url(fonts/fontawesome-webfont.ttf) format('truetype');
+}
+
+/*General Style*/
+body{
+	background: #f2f2f2 url(BackGround.png) fixed;
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: deeppink;
+}
+a:hover{
+	color:red;
+	border-color: red;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: georgia;
+}
+img{
+	border:0;
+	max-width:100%;
+	
+}
+p{
+	text-align: justify;
+}
+.clear{
+	clear: both;
+}
+/* Main Container*/
+#main{
+	
+	background-color: white;
+	max-width: 960px;
+	margin: 0 auto;
+	border:1px solid #eeeeee;
+	border-radius: 3px;
+	padding: 10px;
+	box-shadow: -2px -2px 3px #eeeeee;
+}
+/* header */
+#header{
+	position: relative;
+}
+#header hgroup{
+	position: absolute;
+	top: 0;
+	left:0;
+}
+#header hgroup h1,#header hgroup h2{
+	margin: 0;
+}
+#header hgroup h1{
+	font-size: 28px;
+	color: deeppink;
+}
+#header hgroup h2{
+	font-size: 20px;
+	color: #030303;
+}
+
+#header nav{
+	float: right;
+	font-family:BYekan;
+	direction: rtl;
+
+}
+#header nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+#header nav ul li{
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	margin-left:10px;
+}
+#header nav ul li a{
+	background-color:white;
+	border: 1px solid deeppink;
+	padding: 2px 10px;
+	border-radius: 3px;
+}
+#header nav ul li a:hover{
+	color: white;
+	background-color:deeppink;
+	border: 1px solid white;
+}
+#header nav ul li a.current{
+	color: white;
+	background-color:deeppink;
+	border: 1px solid white;	
+}
+/* row 2 and slider */
+.row2{
+	margin-top: 80px;
+}
+.row2 #slider img{
+	border-radius: 3px;
+}
+.row2 #slider img:hover{
+	opacity: .7;
+}
+/*Sidebar*/
+.row2 #left_column{
+	float:left ;
+	width: 30%;
+	box-sizing: border-box;
+	position: relative;
+}
+     
+#left_column ul li a{
+	color: dimgray;
+}
+#left_column ul li a:hover{
+	color: deeppink;
+}
+#left_column h2{
+	margin-left: 1.5em;
+}
+#left_column h2:before{
+	font-family: FontAwesome;
+	content: "\f138";
+	position: absolute;
+	left : .25em;
+	color: deeppink;
+}
+#left_column nav ul li{
+	list-style-type: none;
+}
+
+#left_column nav ul li:before {
+	font-family: FontAwesome;
+	content: "\f105";
+	position: absolute;
+	left : 1em;
+	color: deeppink;
+}
+
+#left_column .last address{
+	margin-left: 1em;
+}
+/* content*/
+.row2 #content{
+	float: right;
+	width: 68%;
+	box-sizing: border-box;
+}  
+
+.row2 #content article{
+	border-bottom:1px solid #dddddd; 
+	padding-bottom:10px;
+}
+.row2 #content article:last-child{
+	border-bottom:none; 
+}
+
+.row2 #content article{
+	position: relative;
+}
+
+.row2 #content article time{
+	position: absolute;
+	right: 0;
+	top: 4px;
+	font-size: 10px;
+	background-color: #dddddd;
+	border-radius: 3px;
+	padding: 3px 5px;
+}
+
+.row2 #content article footer{
+	text-align: right;
+}
+
+.row2 #content article footer a{
+	color: deeppink;
+	font-size: 12px;
+	padding: 4px 10px;
+	margin-right: 10px;
+	border:1px solid deeppink;
+	border-radius: 3px 10px 10px 3px;
+	transition: background-color 1s;
+	transition: color 1s;
+}
+
+.row2 #content article footer a:hover{
+	background-color: deeppink;
+	border:1px solid white;
+	color: white;
+}
+
+/* Footer */
+.row3{
+	text-align: center;
+	margin-top: 20px;
+	border-top: 1px solid #eee;
+	padding: 5px;
+}
+
+.row3 footer#footer{
+	margin: 0px;
+    padding:0px;
+}
+
+
+.row3 .goUp{
+	font-size: 40px;
+	padding: 0 3px;
+	border:2px solid deeppink;
+	border-radius: 20px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	opacity: .8;
+}
+
+.row3 .goUp:hover{
+	border-color: red;
+}
+
+
+/*table*/
+/*search in google ---> CSS Table style generator*/
+table,td,th{
+	border:1px solid deeppink;
+	border-collapse: collapse;
+	
+}
+table{
+	margin:0px auto 20px;
+	min-width: 80%;
+	text-align: center;
+}
+tr:nth-child(odd){
+background-color: rgb(255, 20, 147,.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
