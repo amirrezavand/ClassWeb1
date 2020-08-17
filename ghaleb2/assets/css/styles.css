@@ -159,4 +159,31 @@ body{
     background-image: url("../images/bg2.png");
     width:100%;
     height: 500px;
+    padding-top: 60px;
 }
+#customerComments img:first-of-type{
+    display: block;
+    margin:0 auto;
+}
+
+#customerComments p{
+    color: white;
+    line-height: 1.6;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 14px;
+}
+
+#customerComments p strong{
+    font-size:18px;
+}
+#customerComments p span{
+    font-size:16px;
+}
+#customerComments img:last-of-type{
+    display: block;
+    margin:0 auto;
+}
+
