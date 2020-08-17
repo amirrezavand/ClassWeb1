@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:BYekan,'BYekan',tahoma;
+    direction: rtl;
+}
+
+#header{
+    background-image: url("../images/bg1.png");
+    width: 100%;
+    height: 670px;
+}
+
+.wrapper{
+    width: 1000px;
+    height: auto;
+    margin:0 auto;
+}
+
+#navigation{
+    float:right;
+}
+#navigation li{
+    display: inline;
+    list-style: none;
+}
+#navigation li a{
+    color:#fff;
+    text-decoration: none;
+    padding:30px;
+    float: right;
+}
+#topLogo{
+    float:left;
+    margin-top:15px;
+}
+
+#navigation li a:hover{
+    color:#00e4d5;
+}
+
+.siteDescripton{
+    width:1000px;
+    height: auto;
+    margin:100px auto;
+    float: right;
+    text-align: center;
+    color: white;
+}
+
+.siteDescripton h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.siteDescripton h2{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
