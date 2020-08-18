@@ -123,7 +123,7 @@ body{
 }
 
 #ourStory .right h2{
-    columns: #413d4b;
+    color: #413d4b;
 }
 #ourStory .right p{
     columns: #716e78;
@@ -185,5 +185,65 @@ body{
 #customerComments img:last-of-type{
     display: block;
     margin:0 auto;
+}
+
+/* contact */
+#contact{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0;
+}
+#contact .right{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#contact .left{
+    width: 50%;
+    float: left;
+    padding: 20px;
+
+}
+
+#contact .left h2,#contact .right h2{
+    color: #413d4b;
+    margin-bottom: 20px;
+}
+#contact .left img{
+    display: block;
+    margin:0 auto;
+}
+
+#contact .right input,#contact .right textarea{
+    font-family:BYekan,'BYekan',tahoma;
+    display: block;
+    width: 90%;
+    margin:20px 0;
+    font-size: 14px;
+    outline: none;
+    padding:0 10px;
+    border:1px solid #e5e5e5;
+}
+#contact .right input{
+    height: 35px;
+}
+
+#contact .right textarea{
+    height: 180px;
+    resize: none;
+}
+#sendCmdMsg{
+    border:1px solid #00e0d0;
+    padding:15px;
+    width: 100px!important;
+    color: #00e0d0;
+    font-size: 16px !important;
+    border-radius: 4px;
+    background-color:inherit;
+}
+
+#sendCmdMsg:hover{
+    background-color: #00e0d0;
+    color:white;
 }
 
