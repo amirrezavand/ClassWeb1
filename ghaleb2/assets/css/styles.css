@@ -247,3 +247,46 @@ body{
     color:white;
 }
 
+/* Footer */
+#footer{
+    background-image: url("../images/bg3.png");
+    width: 100%;
+    height: 300px;
+}
+#footer .right{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#footer .left{
+    width: 50%;
+    float: left;
+    padding: 20px;
+
+}
+#footer .right,#footer .left{
+    margin-top: 30px;
+}
+#footer p{
+    color:white;
+    font-size:14px;
+    line-height: 1.8;
+    text-align: justify;
+}
+#footer h2{
+    color: white;
+}
+#copyRight{
+    float: right;
+    margin-top: 20px;
+}
+#footerLink{
+    float: left;
+}
+#footerLink a{
+    margin-top:20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    float: left;
+}
