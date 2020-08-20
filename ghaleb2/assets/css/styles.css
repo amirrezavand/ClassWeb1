@@ -12,10 +12,16 @@ body{
     clear:both;
 }
 
-#header{
+#headerMain{
     background-image: url("../images/bg1.png");
     width: 100%;
     height: 670px;
+}
+#header{
+    background-image: url("../images/bg1.png");
+    background-position-y: -400px;
+    width: 100%;
+    height:220px;
 }
 
 .wrapper{
@@ -119,7 +125,6 @@ body{
     width: 50%;
     float: left;
     padding: 20px;
-
 }
 
 #ourStory .right h2{
@@ -290,3 +295,147 @@ body{
     margin-left: 10px;
     float: left;
 }
+/* about us */
+.titleHeader{
+    color: white;
+    border-right:6px solid #00e0d0;
+    padding-right: 10px;
+    margin-top:25px;
+    position: relative;
+    right: -40px;
+    top:10px;
+}
+
+#aboutUs .right{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#aboutUs .left{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    overflow: hidden;
+}
+#aboutUs .right h2 {
+    color: #413d4b;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#aboutUs .right h2:first-of-type{
+    text-align: center;
+}
+#aboutUs p{
+    text-align: justify;
+    line-height: 2;
+    font-size: 14px;
+}
+.firozei{
+    color: #00e0d0;
+}
+
+#aboutUs .left img{
+    max-width: 500px;
+}
+/*contact us*/
+/* about us */
+#contactUs .right{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#contactUs .left{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    overflow: hidden;
+}
+#contactUs .right h2 {
+    color: #413d4b;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#contactUs .right p {
+    margin-bottom: 20px;
+}
+
+#form1 input ,textarea{
+    font-family:BYekan,'BYekan',tahoma;
+}
+#form1 input:first-child{
+    outline: none;
+    padding:3px 7px;
+    float: right;
+    width: 46%;
+    margin-left: 9px;
+}
+#form1 input:nth-child(2){
+    outline: none;
+    padding:3px 7px;
+    float: right;
+    width: 47%;
+}
+#form1 input:nth-child(3){
+    margin-top: 10px;
+    outline: none;
+    padding:3px 7px;
+    float: right;
+    width: 95%;
+}
+#form1 textarea{
+    margin-top: 10px;
+    outline: none;
+    padding:3px 7px;
+    float: right;
+    width: 95%;
+    resize: none;
+    height: 100px;
+}
+#form1 input[type=submit]{
+    outline: none;
+    margin-top: 20px;
+    border:1px solid #00e0d0;
+    padding:3px 5px;
+    width: 100px!important;
+    color: #00e0d0;
+    font-size: 16px !important;
+    border-radius: 4px;
+    background-color:inherit;
+}
+
+#form1 input[type=submit]:hover{
+    background-color: #00e0d0;
+    color:white;
+}
+
+#contactUs .left h2 {
+    color: #413d4b;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#contactUs .supportTel,#contactUs .supportEmail,#contactUs .address {
+    margin-top: 8px;
+}
+#contactUs .supportTel div:last-of-type,#contactUs .supportEmail div:last-of-type,#contactUs .address div:last-of-type{
+    float: left;
+    width: 90%;
+}
+
+#contactUs .left .icon{
+    float: right;
+    width:10%;
+    font-size: 24px;
+    color: #00e0d0;
+}
+#contactUs hr{
+    margin-top: 7px;
+    width: 90%;
+    border:1px solid #eee;
+}
+#contactUs h3{
+    color: #413d4b;
+    margin-bottom: 3px;
+}
+
+
+
